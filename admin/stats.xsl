@@ -98,7 +98,7 @@
                     <div class="col" style="text-align: right;">
                       <xsl:choose>
                         <xsl:when test="authenticator">
-                          <span class="text-warning"><i class="fa-solid fa-lock"></i> Emisión protegida</span>
+                          <span class="text-warning"><i class="fa-solid fa-lock"></i> Protegido</span>
                         </xsl:when>
                         <xsl:otherwise></xsl:otherwise>
                       </xsl:choose>
