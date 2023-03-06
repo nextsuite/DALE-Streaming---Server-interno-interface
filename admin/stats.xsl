@@ -13,6 +13,7 @@
         <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/dicon.png" />
         <link rel="icon" type="image/png" sizes="512x512" href="/assets/img/dicon.png" />
         <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/assets/bootstrap/css/remplazar.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       </head>
@@ -108,13 +109,6 @@
                     <div class="table-responsive">
                       <table class="table">
                         <tbody>
-							<xsl:if test="server_name">
-								<tr>
-									<td style="font-weight:bold;">Nombre:</td>
-									<td><xsl:value-of select="server_name" /></td>
-								</tr>
-							</xsl:if>
-
                             <xsl:if test="listeners">
 								<tr>
 									<td style="font-weight:bold;">Conexiones:</td> 
